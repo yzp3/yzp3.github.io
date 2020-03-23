@@ -1,0 +1,95 @@
+.content {
+	border-radius: 20px; //文章背景设置圆角
+	padding: 30px 60px 30px 60px;
+	background:rgba(255, 255, 255, 0.8) none repeat scroll !important;
+}
+
+.main-inner {
+  padding-top: 20px;
+}
+
+//背景图
+body {
+  background:url(/images/background_black.jpg);
+  background-attachment: fixed;
+}
+
+ .footer{
+  background:url(/images/background_black.jpg);
+  background-attachment: fixed;
+}
+.footer-inner{
+  text-align: center
+}
+// 文章摘要配图
+// 图片外部的容器方框，限制图片大小
+.out-img-topic {
+  display: block;
+  margin-bottom: 24px;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+// 图片
+img.img-topic {
+  clear: right;
+  display: block;
+  float: right;
+  margin-left: .7em;
+  margin-right: .7em;
+  padding: 0;
+}
+
+
+// 文章内链接文本样式
+.post-body p a {
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+  color: #0593d3;
+
+  &:hover {
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423;
+    color: #fc6423;
+  }
+}
+
+.post {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  padding: 25px;
+  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+}
+
+// 自定义回到顶部样式
+.back-to-top {
+  background: url('/images/back2top.png');
+  bottom: unset;
+  height: 900px; // 图片素材高度
+  right: 60px;
+  top: -900px;
+  transition: all .5s ease-in-out;
+  width: 70px; // 图片素材宽度
+
+  // 隐藏箭头图标
+  > i {
+    display: none;
+  }
+
+  &.back-to-top-on {
+    bottom: unset;
+    top: 100vh < (900px + 200px) ? calc(100vh - 900px - 200px) : 0;
+  }
+}
+
+canvas {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  z-index: -1;
+}
