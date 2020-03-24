@@ -6,10 +6,6 @@
 
 {% block content %}
 
-
-<!-- 数字雨 -->
-  <canvas id="canvas" width="320" height="900" ></canvas>
-  <script type="text/javascript" src="/js/digitalRain.js"></script>
   {#####################}
   {### ARCHIVE BLOCK ###}
   {#####################}

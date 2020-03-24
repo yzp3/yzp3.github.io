@@ -56,6 +56,10 @@
           <div class="event-list">
           </div>
           {% include '_scripts/pages/schedule.swig' %}
+        {% elif page.type === 'about' %}
+          {% include '_scripts/pages/about.swig' %}
+          </div>
+          {{ page.content }}
         {% else %}
           {{ page.content }}
         {%- endif %}
