@@ -154,7 +154,7 @@ man
 </div>
 ```
 #### 打开开关
-在主题配置文件即 _next/\_config.yml_里添加
+在主题配置文件即 _next/\_config.yml_ 里添加
 ```yaml
 passage_end_tag:
   enable: true
