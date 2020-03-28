@@ -118,7 +118,7 @@ img.img-topic {
 
 ```
 
-注入的优先级高于 _theme/next/source/css/\_custom/custom.styl_ ，如果 custom.styl 和 syle.styl 同时重写了 .body，最后呈现的是 syle.styl 的样式。即 CSS 渲染的顺序是++style.styl > custom.styl > base.styl++。
+注入的优先级高于 _theme/next/source/css/\_custom/custom.styl_ ，如果 custom.styl 和 syle.styl 同时重写了 .body，最后呈现的是 syle.styl 的样式。即 CSS 渲染的顺序是 ++style.styl > custom.styl > base.styl++ 。
 
 ## 自定义注入
 
