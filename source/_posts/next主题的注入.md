@@ -8,10 +8,10 @@ tags:
  - Next主题
 ---
 > 基于 hexo-injects 插件的 Next 主题的[Injects](https://theme-next.org/docs/advanced-settings)对扩展开放，对修改关闭，很好地符合了“开-闭原则”，下面介绍一下 Injects 的使用方法。
+<!-- more -->
 
 ***
 
-<!-- more -->
 ## Next 注入
 在主题配置文件_config.yml 中可以找到下面这段配置
 ```yaml
