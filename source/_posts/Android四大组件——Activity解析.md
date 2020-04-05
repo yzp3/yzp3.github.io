@@ -49,3 +49,6 @@ Activity在后台并失去焦点，但用户仍然可以看见该 Activity。有
 该Activity完全被另一个Activity遮挡，不可见。停止的Activity也仍然存在（Activity 对象保留在内存中，它维护所有状态和成员信息，但不 附加到窗口管理器）。但是，它不再对用户可见，并且当其他地方需要内存时，它可能被系统杀死。
 如果Activity暂停或停止，系统可以通过要求它完成（调用其finish()方法）或简单地终止其进程来从内存中删除它。当活动再次打开时（在完成或杀死之后），必须全部创建它。
 
+## 参考文章 
+[Android之Activity全面解析](https://www.jianshu.com/p/476087b4c087)
+[Google 文档](https://developer.android.google.cn/guide/components/activities/activity-lifecycle)
